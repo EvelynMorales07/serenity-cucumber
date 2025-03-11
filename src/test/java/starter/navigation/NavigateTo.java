@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.actions.Open;
 
 public class NavigateTo {
     public static Performable theSearchHomePage() {
-        return Task.where("{0} opens the store home page",
-                Open.browserOn().the(store.class));
+        return Task.where("{0} opens the compra home page",
+                Open.browserOn().the(compra.class));
     }
 }
